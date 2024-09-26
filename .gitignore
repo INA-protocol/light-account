@@ -7,3 +7,6 @@ broadcast/**/run-latest.json
 broadcast/**/dry-run/**/*
 
 .DS_Store
+
+node_modules/
+yarn.lock

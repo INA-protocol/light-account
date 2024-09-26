@@ -1,0 +1,30 @@
+{
+    "name": "@pollum-io/light-account",
+    "version": "1.0.0",
+    "description": "INA's light account",
+    "publishConfig": {
+        "access": "public"
+      },
+    "files": [
+      "src/**/*.sol",
+      "out/**/*.json",
+      "lib/**/*.sol"
+    ],
+    "scripts": {
+      "test": "forge test",
+      "build": "forge build"
+    },
+    "keywords": [
+      "ethereum",
+      "smart-contracts",
+      "solidity",
+      "forge"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+      "forge-std": "^1.0.0"
+    },
+    "peerDependencies": {
+      "forge-std": "^1.0.0"
+    }
+  }
